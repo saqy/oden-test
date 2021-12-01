@@ -12,7 +12,6 @@ export const GraphPresenter: React.FC = () => {
     const [data, setData] = useState([]);
 
     const formatData = (data: any) => {
-        console.log(data)
         return data.map((currenValue: any) => {
             const innerData: any = { ...currenValue.data };
             const result = innerData.series.map((currentValue: any) => {

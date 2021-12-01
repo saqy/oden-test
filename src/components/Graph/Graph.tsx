@@ -26,7 +26,6 @@ export const Graph: React.FC<Props> = ({data}) => {
             },
             labels: {
                 formatter: function () {
-                    console.log(this.value);
                     return this.value as any;
                 }
             },
